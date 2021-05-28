@@ -1,0 +1,64 @@
+
+body{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #e8f5f5;
+  width: 800px;
+  height: 110vh;
+  margin: auto;
+}
+.heading{
+  text-align: center;
+}
+
+.logo-image{
+  width: 250px;
+  
+}
+
+.container{
+  width: 70%;
+  margin:auto;
+  background: white;
+  padding: 50px 80px;
+  border-top: 5px solid purple;
+  border-bottom: 4px solid skyblue;
+}
+
+.footer-greetings_one{
+  margin-top: 40px;
+}
+.token{
+  width: 200px;
+  margin: 40px auto;
+  text-align: center;
+  padding:15px 60px;
+  background: #ddd;
+  letter-spacing: 10px;
+  font-size: 30px;
+  
+  border-radius: 5px;
+}
+
+.small-footer{
+  color:rgba(82, 78, 78, 0.781);
+  text-align: center;
+  font-size: small;
+} 
+
+form{
+  margin-left: 160px;
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+
+.submit-button{
+  padding: 15px 55px;
+  background: #5B21B6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
