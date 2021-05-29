@@ -6,6 +6,7 @@ body{
   width: 800px;
   height: 110vh;
   margin: auto;
+  color:#374151;  
 }
 .heading{
   text-align: center;
@@ -13,7 +14,7 @@ body{
 
 .logo-image{
   width: 250px;
-  
+           
 }
 
 .container{
@@ -23,6 +24,7 @@ body{
   padding: 50px 80px;
   border-top: 5px solid purple;
   border-bottom: 4px solid skyblue;
+  position: relative;
 }
 
 .footer-greetings_one{
@@ -38,6 +40,7 @@ body{
   font-size: 30px;
   
   border-radius: 5px;
+  position: relative;
 }
 
 .small-footer{
@@ -61,4 +64,29 @@ form{
   cursor: pointer;
   font-size: 18px;
   letter-spacing: 2px;
+}
+
+.reset-link{
+  
+  padding: 15px 55px;
+  background: #5B21B6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.link-container{
+  height: 60px;
+  
+  position: relative;
+  
 }

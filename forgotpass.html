@@ -16,20 +16,20 @@
   <div class="container" style="width: 70%;margin:auto;background: white;padding: 50px 80px;border-top: 5px solid #5B21B6;border-bottom: 4px solid skyblue;">
     
     <div class="secondary-container" style="margin-top: 40px;">
-      <h1 class="confirmation-email-heading">Confirm Your Login</h1>
+      <h1 class="confirmation-email-heading">Reset Your Password</h1>
       <p class="heading-greetings">Hi Al Mahmud!</p>
-      <p class="normal-text">Please enter this verfication code in the window to confirm your login.</p>
-      <form style="margin-left: 160px;margin-top: 20px;margin-bottom:20px;" type="hidden" method="POST" action="http://localhost:3000/api/v1/user/resetpassword/2342342">
-        <button style="padding: 15px 55px;background: #5B21B6;color: white;border: none;border-radius: 5px;cursor: pointer;font-size: 18px;letter-spacing: 2px;" type="submit" class="submit-button">Reset Password</button>
-
-      </form>
-      <p class="context">From your device use the code to confirm login.</p>
+      <p class="normal-text">Click here</p>
+      <div class="link-container" style="height: 60px;position: relative;">
+        <a href="https://localhost:3000/reset-password/{{resetToken}}" class="reset-link" style="padding: 15px 55px;background: #5B21B6;color: white;border: none;border-radius: 5px;cursor: pointer;font-size: 18px;letter-spacing: 2px;text-decoration: none;margin: 0;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);">Reset Password</a>
+      </div>
+      
+      <p class="context">From your device use the code to reset your Password.</p>
       <p class="footer-greetings_one" style="margin-top: 40px;">Regards,</p>
       <p class="footer-greetings">Ecommerce team.</p>
     </div>
   </div>
   <p class="small-footer" style="color:rgba(82, 78, 78, 0.781);text-align: center;font-size: small;">
-    This email is sent from ecommerce team to confirm your login.
+    This email is sent from ecommerce team to to reset your Password.
   </p>
 </body>
 </html>
